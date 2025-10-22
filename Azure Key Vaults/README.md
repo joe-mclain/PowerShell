@@ -9,7 +9,8 @@
 - **Notes**
   > - Created 2024
 
----\n## AKV Firewall Controls
+---
+## AKV Firewall Controls
 - **Synopsis**
   > Manages firewall and virtual network (VNet) settings for an Azure Key Vault.
 - **Description**
@@ -20,7 +21,8 @@
 - **Notes**
   > - Created 2024
 
----\n## Audit AKV Access
+---
+## Audit AKV Access
 - **Synopsis**
   > Audits access to an Azure Key Vault using its associated Log Analytics workspace.
 - **Description**
@@ -30,37 +32,40 @@
 - **Notes**
   > - Created 2024
 
----\n## Backup AKV
+---
+## Backup AKV
 - **Synopsis**
   > Backs up secrets and certificates from an Azure Key Vault to a local folder with clear filename extensions.
 - **Description**
   > - Retrieves the list of Azure Key Vaults.
   > - Prompts the user to select a Key Vault.
   > - Backs up all items to a local folder:
-  >   - Secrets saved as *
+  > - Secrets saved as *
 - **Notes**
   > - Created 2024
 
----\n## Change Ownership of AKV
+---
+## Change Ownership of AKV
 - **Synopsis**
   > Manages Azure Key Vault ownership and RBAC assignments for specified users.
 - **Description**
   > 1. Allow the user to view assigned roles for a user within a specific Azure Key Vault.
   > 2. Allow the user to add owners for the selected Key Vault using the following roles:
-  >     - Owner
-  >     - Key Vault Administrator
-  >     - Key Vault Certificates Officer
+  > - Owner
+  > - Key Vault Administrator
+  > - Key Vault Certificates Officer
   > 3. Allow the user to remove owners for the selected Key Vault using the following roles:
-  >     - Owner
-  >     - Key Vault Administrator
-  >     - Key Vault Certificates Officer
-  >     - Key Vault Secrets Officer
-  >     - Key Vault Reader
+  > - Owner
+  > - Key Vault Administrator
+  > - Key Vault Certificates Officer
+  > - Key Vault Secrets Officer
+  > - Key Vault Reader
   > 4. Allow the user to list the RBAC permissions for a specific user on the selected Key Vault.
 - **Notes**
   > - Created 2024
 
----\n## Configure Analytics Reporting for AKV
+---
+## Configure Analytics Reporting for AKV
 - **Synopsis**
   > Configures Azure Key Vault diagnostic settings to send logs and metrics to a selected Log Analytics Workspace.
 - **Description**
@@ -73,7 +78,8 @@
 - **Notes**
   > - Created 2024
 
----\n## Create AKV
+---
+## Create AKV
 - **Synopsis**
   > Creates an Azure Key Vault with user-specified settings and optional owner assignment.
 - **Description**
@@ -83,7 +89,8 @@
 - **Notes**
   > - Created 2024
 
----\n## Delete AKV
+---
+## Delete AKV
 - **Synopsis**
   > Deletes a selected Azure Key Vault after user confirmation.
 - **Description**
@@ -94,7 +101,8 @@
 - **Notes**
   > - Created 2024
 
----\n## Inventory AKVs
+---
+## Inventory AKVs
 - **Synopsis**
   > Inventories Azure Key Vaults and optionally lists secrets and certificates.
 - **Description**
@@ -105,7 +113,8 @@
 - **Notes**
   > - Created 2024
 
----\n## List AKVs
+---
+## List AKVs
 - **Synopsis**
   > Lists all Azure Key Vaults in the current subscription.
 - **Description**
@@ -114,7 +123,8 @@
 - **Notes**
   > - Created 2024
 
----\n## Recover Deleted AKV
+---
+## Recover Deleted AKV
 - **Synopsis**
   > Recovers a deleted Azure Key Vault using Azure CLI, with guided selection and validation.
 - **Description**
@@ -123,7 +133,8 @@
 - **Notes**
   > - Created 2024
 
----\n## Restore AKV
+---
+## Restore AKV
 - **Synopsis**
   > Restores secrets and certificates from an Azure Key Vault backup to a specified location.
 - **Description**
